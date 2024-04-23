@@ -1,0 +1,187 @@
+:root {
+    --cor0: hsl(14, 45%, 36%);
+    --cor1: hsl(332, 51%, 32%);
+    --cor2: hsl(30, 54%, 90%);
+    --font0: "Outfit", sans-serif;
+    --font1: "Young Serif", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor2);
+    padding: 100px;
+}
+
+main{
+    max-width: 800xp;
+}
+
+.linha {
+    width: 90%;
+    /* Largura da linha */
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    /* Borda inferior para simular linha */
+    position: relative;
+    /* Para posicionamento absoluto */
+    margin: auto;
+}
+
+.conteudo-principal {
+    border-radius: 30px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    background-color: white;
+}
+
+.imagem-omelete {
+    border-radius: 40px;
+    padding: 30px;
+    margin: auto;
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: left;
+    text-indent: 30px;
+    font-family: var(--font1);
+    font-weight: 400;
+}
+
+.paragrafo-escrito {
+    padding: 10px 30px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: var(--font0);
+}
+
+.conteudo-preparacao {
+    background-color: hsl(330, 100%, 98%);
+    margin: 10px 30px;
+    border-radius: 10px;
+    font-family: var(--font0);
+}
+
+.conteudo-preparacao li::marker {
+    color: var(--cor1);
+}
+
+.titulo-preparacao {
+    color: var(--cor1);
+    text-align: justify;
+    padding: 10px 30px;
+    font-family: var(--font0);
+    font-weight: 600;
+}
+
+.lista-preparacao {
+    padding: 0 0 25px 32px;
+    margin: auto;
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.titulo-secundario {
+    padding-top: 20px;
+    text-align: left;
+    text-indent: 30px;
+    font-family: var(--font1);
+    font-weight: 400;
+    color: var(--cor0);
+}
+
+.conteudo-lista-principal {
+    max-width: 700px;
+    font-family: var(--font0);
+    text-align: left;
+    list-style-position: inside;
+    padding: 10px 60px;
+    line-height: 40px;
+}
+
+.conteudo-lista-secundaria {
+    font-family: var(--font0);
+    text-align: left;
+    list-style-position: inside;
+    padding: 10px 0 10px 40px;
+    line-height: 35px;
+}
+
+.lista-principal li::marker {
+    color: var(--cor0);
+}
+
+.tabela-nutricao {
+    font-family: var(--font0);
+    font-weight: 400;
+    text-decoration: none;
+    text-align: left;
+    padding: 10px 50px 10px 80px;
+    line-height: 40px;
+
+
+}
+
+.valor {
+    color: var(--cor0);
+
+}
+
+.info {
+    border-top: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
